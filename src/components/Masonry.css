@@ -1,0 +1,16 @@
+/* src/components/Masonry.css */
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -32px; /* отступ равен gap-8 в Tailwind */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 32px; /* тот же отступ */
+  background-clip: padding-box;
+}
+
+/* Здесь мы говорим, что у каждого элемента в колонке будет отступ снизу */
+.my-masonry-grid_column > div {
+  margin-bottom: 32px;
+}
