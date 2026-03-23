@@ -141,6 +141,55 @@ export const portfolioImages = [
     width: 696,
     height: 927,
   },
+  {
+    id: 21,
+    category: "Gamedev",
+    src: '/images/portfolio/kids_project.jpg',
+    width: 696,
+    height: 927,
+  },
+  {
+    id: 22,
+    category: "Gamedev",
+    src: '/images/portfolio/kids_projects1.jpg',
+    width: 696,
+    height: 927,
+  },
+  {
+    id: 23,
+    category: "Gamedev",
+    src: '/images/portfolio/kids_projects2.jpg',
+    width: 696,
+    height: 927,
+  },
+  {
+    id: 24,
+    category: "Gamedev",
+    src: '/images/portfolio/kids_projects3.jpg',
+    width: 696,
+    height: 927,
+  },
+  {
+    id: 25,
+    category: "Gamedev",
+    src: '/images/portfolio/kids_projects4.jpg',
+    width: 696,
+    height: 927,
+  },
+  {
+    id: 26,
+    category: "Gamedev",
+    src: '/images/portfolio/kids_projects5.jpg',
+    width: 696,
+    height: 927,
+  },
+  {
+    id: 26,
+    category: "gamedev",
+    src: '/images/portfolio/kids_projects6.jpg',
+    width: 696,
+    height: 927,
+  },
 ];
 
 // Список категорий для кнопок-фильтров остается таким же
