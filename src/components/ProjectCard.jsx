@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 
 export const ProjectCard = ({ src }) => {
   return (
-    // cursor-pointer намекает пользователю, что сюда можно нажать
     <div className="block overflow-hidden rounded-lg cursor-pointer"> 
       <motion.div
         className="relative"
@@ -15,11 +14,10 @@ export const ProjectCard = ({ src }) => {
         <Image
           src={src}
           alt="Иллюстрация из портфолио Виктории Янчевской"
-          // ИЗМЕНЕНИЕ: Используем реальные размеры из данных для лучшей оптимизации
-          // Но так как мы их не передаем, пока оставим так.
+
           width={600} 
           height={600}
-          className="w-full h-auto object-cover" // h-auto важно для Masonry!
+          className="w-full h-auto object-cover" 
         />
       </motion.div>
     </div>
