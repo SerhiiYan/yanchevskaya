@@ -95,7 +95,7 @@ export const portfolioImages = [
   {
     id: 14,
     category: "Стикеры",
-    src: '/images/portfolio/dirs.png',
+    src: '/images/portfolio/dir.jpg',
     width: 696,
     height: 927,
   },
@@ -236,13 +236,6 @@ export const portfolioImages = [
     id: 31,
     category: "Все",
     src: '/images/portfolio/meromi.png',
-    width: 696,
-    height: 927,
-  },
-   {
-    id: 32,
-    category: "Стикеры",
-    src: '/images/portfolio/dir.jpg',
     width: 696,
     height: 927,
   },
