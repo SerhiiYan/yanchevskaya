@@ -95,7 +95,7 @@ export const portfolioImages = [
   {
     id: 14,
     category: "Векторная графика",
-    src: '/images/portfolio/dir.jpg',
+    src: '/images/portfolio/dir.png',
     width: 696,
     height: 927,
   },
